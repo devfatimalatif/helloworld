@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-void swap(int *a,int *b)//function to swap the value of two integers
+void swap(int *a,int *b)//function to swap the value of two integers//
    {
 	 int c;
 	  c= *a;
