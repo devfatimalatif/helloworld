@@ -2,10 +2,10 @@
 using namespace std;
 void swap(int *a,int *b)//function to swap the value of two integers//
    {
-	 int c;
-	  c= *a;
+	 int temp;
+	  temp= *a;
 	 *a=*b;
-	  *b=c;
+	  *b=temp;
    }
    int main()
    {
@@ -25,6 +25,14 @@ void swap(int *a,int *b)//function to swap the value of two integers//
 	cout<< q;
    	cout<< endl;
    	cout<< "Values of integers after swapping "<< endl;
+   	swap(&p,&q);//calling the swap function
+   	cout<< "value of 1st integer ";
+	cout<< p;
+   	cout<< endl;
+   	cout<< "value of 2nd integer ";
+	cout<< q;
+   	cout<< endl;
+	cout<< "Values of integers after again swapping "<< endl;
    	swap(&p,&q);//calling the swap function
    	cout<< "value of 1st integer ";
 	cout<< p;
